@@ -171,3 +171,10 @@ it,s used, I would like to have used something more object oriented, but I still
   - `main.cpp` - reads in data, calls a function to run the Kalman filter, calls a function to calculate RMSE
   - `ukf.cpp` - the UKF filter itself, defines the predict function, the update function for lidar, and the update function for radar
   - `tools.cpp` - a function to calculate RMSE
+
+## Review #1
+I forget to change use_radar_ to true after to make the change to false to test it.
+
+The reviewer also recommends to change std_a to some value between 0 and 1 for best result.
+
+I have changed both values.
